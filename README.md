@@ -14,7 +14,7 @@ Se trata de una plataforma de ventas de cursos online dictados por dintintos pro
 - El carrito cuenta con un resumen de la venta, los items agregados y un formulario que se habilita cuando se completan los campos. Los items se pueden remover y ademas se puede vaciar el carrito. El carrito es persistente. Se mantiene por mas que se recargue la pagina. Al final la compra se e una pagina de gracias por tu compra con el nro de orden generado.
 
 
-(./desktop-preview.jpg)
+(./desktop-preview.png)
 
 # Decisiones tomadas
 
