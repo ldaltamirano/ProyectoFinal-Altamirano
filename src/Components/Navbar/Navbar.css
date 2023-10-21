@@ -1,0 +1,65 @@
+.logo {
+    margin: 0.5em;
+}
+
+.logo .mobile {
+    display: block;
+}
+
+.logo .desktop {
+    display: none;
+}
+
+.logoColor {
+    display: block;
+}
+
+.logo img {
+    max-width: 200px;
+    min-height: 30px;
+    padding: 5px;
+    position: relative;
+}
+
+.navbar {
+    background-color: black !important;
+}
+
+.dropdown-menu.show {
+    background-color: rgb(63, 71, 79) !important;
+}
+
+.nav-link {
+    color: white !important;
+    padding-left: 10px !important;
+}
+
+@media (min-width: 961px) {
+    .logo .mobile {
+        display: none;
+    }
+
+    .logo .desktop {
+        display: block;
+    }
+
+    .navbar {
+        background-color: white !important;
+    }
+
+    .nav-link {
+        color: black !important;
+    }
+
+    .dropdown-item.active {
+        background-color: rgb(255, 255, 255) !important;
+    }
+
+    .dropdown-item:active {
+        background-color: rgb(224, 224, 224) !important;
+    }
+
+    .dropdown-menu.show {
+        background-color: white !important;
+    }
+}

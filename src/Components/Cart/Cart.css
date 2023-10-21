@@ -1,0 +1,63 @@
+.jumbotron {
+    background: transparent;
+    border: 0;
+    border-radius: 0 !important;
+    color: inherit;
+    float: left;
+    margin: 30px 0;
+    overflow: hidden;
+    padding: 100px 60px !important;
+    width: 100%;
+    text-align: center;
+}
+
+.cart-items .price {
+    font-size: 14px;
+}
+
+.cart-items .subtotal {
+    font-size: 14px;
+}
+
+.cart-items h3 {
+    font-size: 14px !important;
+}
+
+.summary {
+    background: #EFF8FF;
+    border: 1px solid #007EAF;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.08);
+    margin: 0 0 8px;
+    opacity: 1;
+    border-radius: 5px;
+}
+
+.summary h2 {
+    color: #007EAF;
+}
+
+.cleanCart {
+    text-align: center;
+    color: #007EAF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cleanCart span {
+    border-bottom: 1px solid #007EAF;
+}
+
+@media (min-width: 992px) {
+    .cart-items .price {
+        font-size: 16px;
+    }
+
+    .cart-items .subtotal {
+        font-size: 16px;
+    }
+
+    .cart-items h3 {
+        font-size: 16px !important;
+    }
+}

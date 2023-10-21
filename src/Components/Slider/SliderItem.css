@@ -1,0 +1,11 @@
+@media (min-width: 992px) {
+
+    .left {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        width: 25%;
+        color: black !important;
+        background: white;
+    }
+}

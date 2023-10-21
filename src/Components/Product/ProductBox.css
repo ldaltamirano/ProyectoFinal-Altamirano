@@ -1,0 +1,79 @@
+.productsLi {
+    min-width: 330px;
+    max-width: 400px;
+}
+
+.productsLi img {
+    min-width: 330px;
+}
+
+
+
+.productsLi .cartAdd {
+    padding: 0;
+}
+
+.productsLi .cartAdd .price {
+    font-size: 1.6em;
+    font-weight: 700;
+    padding: 0;
+}
+
+.btn-primary {
+    background: var(--navbarBackground--) !important;
+    border-color: var(--navbarBackground--) !important;
+}
+
+.btn-primary:active {
+    background: var(--hover-color--) !important;
+    border-color: var(--hover-color--) !important;
+}
+
+.btn-primary .cart {
+    color: white;
+    margin: 0;
+    font-size: 1em;
+}
+
+.btn-primary .cart:active {
+    background: var(--navbarBackground--) !important;
+    border-color: var(--navbarBackground--) !important;
+}
+
+.btn-primary .cart:hover {
+    background: var(--navbarBackground--) !important;
+    border-color: var(--navbarBackground--) !important;
+}
+
+@media (min-width: 770px) {
+
+    .productsLi img {
+        min-width: 400px;
+    }
+
+    .productsLi h3 {
+        text-align: left;
+        margin-bottom: 10px;
+        font-size: 1.4em;
+    }
+
+    .productsLi .info {
+        font-size: 1.2em;
+        color: #6a6f73;
+        text-align: left;
+    }
+
+    .productsLi .info:first-child {
+        padding-right: 1em;
+    }
+
+    .productsLi .cartAdd .btn-primary .cart {
+        margin-right: 2rem;
+        margin-bottom: 0.5em;
+        font-size: 1.6em;
+    }
+
+    .productsLi .cartAdd .btn-primary .cart:hover {
+        color: white;
+    }
+}

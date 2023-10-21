@@ -1,0 +1,43 @@
+.bannerSlider {
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.clients {
+    margin: 2em 0;
+    padding: 2em 1em;
+    background: var(--navbarBackgroundLigth--);
+    width: 100%;
+}
+
+.clients p {
+    font-family: "Roboto";
+    font-weight: 600;
+    text-align: center;
+    margin: 2em 0;
+}
+
+.clients .brands img {
+    padding: 1em;
+}
+
+@media (min-width: 770px) {
+    .main {
+        width: 80%;
+        margin: 0 auto 2em;
+    }
+
+    .clients {
+        margin: 2em 0;
+        padding: 3em 1em;
+    }
+
+    .clients .brands img {
+        padding: 2em 1.5em;
+    }
+
+    .clients p {
+        margin: 1em 0;
+    }
+}

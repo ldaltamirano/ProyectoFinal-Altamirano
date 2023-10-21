@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "path": "/category/1",
+        "category": "Back-End",
+        "banner": ""
+    },
+    {
+        "id": 2,
+        "path": "/category/2",
+        "category": "Front-End",
+        "banner": ""
+    },
+    {
+        "id": 3,
+        "path": "/category/3",
+        "category": "FullStack",
+        "banner": ""
+    }
+]

@@ -1,0 +1,32 @@
+.courseClients {
+    margin: 2em 0;
+    padding: 2em 1em;
+    width: 100%;
+}
+
+.courseClients p {
+    font-family: "Roboto";
+    font-weight: 600;
+    text-align: center;
+    margin: 2em 0;
+}
+
+.courseClients .brands img {
+    padding: 1em;
+}
+
+@media (min-width: 770px) {
+    .courseClients {
+        margin: 1em 0;
+        padding: 1em 1em;
+    }
+
+    .courseClients .brands img {
+        padding: 1em 1.5em;
+    }
+
+    .courseClients p {
+        margin: 1em 0;
+        text-align: left;
+    }
+}
